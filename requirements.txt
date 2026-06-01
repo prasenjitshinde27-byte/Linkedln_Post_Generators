@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────
+#  LinkedIn Post Generator — Requirements
+# ─────────────────────────────────────────────
+#  Install with:  pip install -r requirements.txt
+#  Run app with:  streamlit run app.py
+
+# ── Core UI ──────────────────────────────────
+streamlit>=1.35.0
+
+# ── LLM / AI SDK ─────────────────────────────
+#  Uncomment whichever provider your config.py uses:
+
+# OpenAI
+# openai>=1.30.0
+
+# Anthropic
+# anthropic>=0.28.0
+
+# Google Generative AI
+# google-generativeai>=0.7.0
+
+# LangChain (if used in prompt_builder.py)
+# langchain>=0.2.0
+# langchain-openai>=0.1.0
+# langchain-anthropic>=0.1.0
+
+# ── Utilities ────────────────────────────────
+python-dotenv>=1.0.0        # for loading .env / API keys in config.py
